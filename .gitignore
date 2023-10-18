@@ -148,3 +148,4 @@ app/tests/fixtures/csv/temp/*
 !app/tests/fixtures/csv/temp/.gitkeep
 
 .python-version
+.vscode
