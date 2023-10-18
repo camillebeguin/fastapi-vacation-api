@@ -1,7 +1,9 @@
-from pydantic_sqlalchemy import sqlalchemy_to_pydantic
+from uuid import UUID
 
-from app.model.employee import EmployeeModel
+from pydantic import BaseModel
 
 
-class EmployeeBase(sqlalchemy_to_pydantic(EmployeeModel)):
-    ...
+class EmployeeBase(BaseModel):
+    first_name: str 
+    last_name: str 
+    team_id: UUID

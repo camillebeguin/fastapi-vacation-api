@@ -17,7 +17,11 @@ build:
 # DB
 .PHONY: create-db
 create-db:
-	docker exec worklife-test-db psql -U dev -d postgres -f /scripts/create_db.sql -v db="dev"
+	docker exec worklife-test-db psql -U dev -d postgres -f /scripts/create_db.sql -v db="worklife_test_db"
+
+.PHONY: recreate-db
+recreate-db:
+	docker exec worklife-test-db psql -U dev -d postgres -f /scripts/recreate_db.sql -v db="worklife_test_db"
 
 .PHONY: downgrade-db
 downgrade-db:
