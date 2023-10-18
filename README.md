@@ -1,6 +1,6 @@
 # Worklife Python Technical test
 
-This project serves as a technical test for middle-senior backend developers in Python.
+This project serves as a technical test for middle-senior backend developers in Python. This repository shows my approach to solve the case after joining the backend team as a junior. 
 
 It makes use of FastAPI (and Pydantic), SQLAlchemy (orm), alembic (migrations).
 It also uses PostgreSQL as database and poetry for dependency management.
@@ -50,16 +50,6 @@ If you have the time/will, you can implement any (or all) of those features:
 * Searching should also return the number of vacation days for each employee (given the search parameters).
 * Compare two employees and return the days they will be both on vacation
 * Implement a balance, decreasing as an employee takes paid vacations
-
-
-## What we expect
-
-4 to 5 hours is a good target for this exercice, but you can spend as much or little time as you'd like.
-
-Your answer to this test should be a repository.
-
-Feel free to implement this project in whatever way you feel like, we do not impose any limitations/requirements, 
-we simply give you a base to work with.
 
 ## Requirements
 
